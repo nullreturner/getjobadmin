@@ -7,14 +7,12 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 
 const titles = [
-  "index",
+  "admin-index",
 ];
-
-
 
 module.exports = {
   entry: [
-    './src/app.js',
+    './src/admin.js',
     'font-awesome/scss/font-awesome.scss',
   ],
   output: {
